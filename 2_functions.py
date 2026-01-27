@@ -3,6 +3,8 @@
 
 # You should only define the function, you should not call it later.
 
+def greet():
+    print("hello world")
 
 
 
@@ -11,8 +13,13 @@
 
 # Create Functions Practice #2
 # Declare a Function: Create a function called welcome that takes a person's name as an argument. This function should print "Welcome {name}!" whenever it is called.
+def welcome(name):
+    print(f"Welcome {name}!")
+welcome("bro")
+
 
 # Create a Variable: Define a variable named name and store any name of your choice in it.
+name = "Jeff"
 
 # Note: Only define the function and create the variable. Do not call the function afterwards.
 
@@ -23,6 +30,12 @@
 
 # Create Functions Practice #3
 # Declare a function called square, that takes any number as an argument, and each time it is called, it prints the square of that number on the screen (that is, the value to the second power).
+number = 5
+def square(number):
+    print(number ** 2)
+
+print(square(number))
+
 
 # The name of the argument that this function must take is number. Create this variable and assign it any number.
 
