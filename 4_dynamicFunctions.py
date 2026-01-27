@@ -2,6 +2,16 @@
 # Create a function (all_positives) that returns True if all the values in a list are positive, and False if at least one of the values is negative. Create a list named numbers with positive and negative values.
 
 # Don't call the function, you just need to define it.
+number = [1, 2, 4, 6, -5, 7, -3]
+def all_positives():
+    for x in number:
+        if x <= 0:
+            return False
+        else:
+            return False
+        
+print(all_positives())
+        
 
 
 
