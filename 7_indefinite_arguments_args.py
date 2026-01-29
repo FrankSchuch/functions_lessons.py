@@ -30,6 +30,15 @@ def absolute_sum(*args):
 print(absolute_sum(-1,-2,-3))
 # Indefinite Arguments (*args) Practice #3
 # Create a function called personal_numbers that receives, as its first argument, a name, and then an indefinite number of values.
+def personal_numbers(name, *args):
+    sum = 0
+    print(name,", the sum of your numbersgiut is: ")
+    for num in args:
+        sum += num
+    return sum
+print(personal_numbers("Kevin", 2, 5, 7, 4))
+
+
 
 # The function should return the following message:
 
